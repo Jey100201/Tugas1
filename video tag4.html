@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS, javascript, metadata</title>
+</head>
+<body>
+<body bgcolor="lightgreen" id="myid" class="myclass">
+<h1 style="color:blue">CSS, javascript, metadata</h1>
+<p style="text-indent: 45px;">Indonesia, memiliki banyak keragaman budaya dan adat istiadat.<br> Keragaman seperti tari dan juga pakain adat daerah masing-masing. Dan<br> selain itu Indonesia juga kaya dengan SDA, mulai dari rempah-rempah,<br> minyak sawit, hingga emas yang ada di Papua. Dan ada kekayaan alam<br> yang baru saja memasuki pasar global yaitu NIKEL. Terbukti bahwa nikel<br> itu sangat diperhatikan dengan majunya teknologi, karna dengan majunya<br> teknologi maka kebutuhan nikel pun makin naik. Dan Indonesia menguasai<br> nikel 27% dari pasokan dunia. Itu alasan kenapa Indonesia dijajah selama<br> berabad-abad oleh penjajah. Karena, memang dari dulu Indonesia<br> terkenal dengan salah satu negara penghasil rempah-rempah terbesar.</p>
+<br>
+<div id="kotak"></div>
+<button id="btn">Click</button>
+
+<script type="text/javascript">
+	var btn = document.getElementById('btn');
+	btn.onclick = function(){
+		var img = document.createElement('img');
+		img.setAttribute('src', 'nikel.png')
+		var kotak = document.getElementById('kotak');
+		kotak.appendChild(img);
+	}
+</script>
+
+</body>
+</html>
